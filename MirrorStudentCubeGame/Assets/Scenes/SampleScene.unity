@@ -204,7 +204,7 @@ MonoBehaviour:
   offlineScene: 
   onlineScene: 
   transport: {fileID: 7109281}
-  networkAddress: localhost
+  networkAddress: school.oxnack.ru
   maxConnections: 100
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
