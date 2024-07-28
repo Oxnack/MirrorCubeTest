@@ -4,8 +4,7 @@ using UnityEngine;
 public class ServerMove : NetworkBehaviour
 {
     [SerializeField] private float _speed = 1f;
-
-    private void Update()
+    private void Update() 
     {
         if (!isLocalPlayer) return;
 

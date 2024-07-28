@@ -8,7 +8,6 @@ public class ClientMove : NetworkBehaviour
     private void Update()
     {
         if (!isLocalPlayer) return;
-
         Vector3 moveDirection = Vector3.zero;
 
         if (Input.GetKey(KeyCode.W))
